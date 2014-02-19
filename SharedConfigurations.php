@@ -17,10 +17,12 @@
 ); */
 $single_server = array(
     // 'host'     => 'pub-redis-10019.us-east-1-3.1.ec2.garantiadata.com',
-
-    'port'     => 10019,
+    'host'     => 'ec2-46-137-228-31.ap-southeast-1.compute.amazonaws.com',
+    // 'port'     => 10019,
+    'port'     => 6379,
     'database' => 0,
-    'password' => 'terserah1234'
+    // 'password' => 'terserah1234'
+    'password' => 'rahasiahati12345'
 );
 
 $multiple_servers = array(
