@@ -24,8 +24,8 @@ require 'SharedConfigurations.php';
     },
 ); */
 
-// $client = new Predis\Client($multiple_servers, array('cluster' => 'redis'));
-$client = new Predis\Client($single_server);
+$client = new Predis\Client($multiple_servers, array('cluster' => 'redis'));
+// $client = new Predis\Client($single_server);
 
 $client->set('kopi', 'kapalapi');
 $retval = $client->get('kopi');
